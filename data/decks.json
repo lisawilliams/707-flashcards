@@ -1,9 +1,12 @@
 {
   "decks": [
     {
-      "title": "707 Flashcards",
-      "file": "707-flaschards.json"
+      "title": "707 flashcards",
+      "file": "707-flashcards.json"
     },
-    
+    {
+      "title": "Important Constitutional Amendments",
+      "file": "amendments.json"
+    }
   ]
 }
