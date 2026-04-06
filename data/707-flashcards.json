@@ -35,7 +35,7 @@
     },
     {
       "front": "categorical variables",
-      "back": "variables whose values are organized into mutually exclusive groups but whose numerical values cannot be used in mathematical operations."
+      "back": "variables whose values are organized into mutually exclusive groups but whose numerical values cannot be used in mathematical operations. Example: hometowns of survey participants."
     },
     {
       "front": "contingency table",
@@ -76,7 +76,25 @@
     {
       "front": "ANOVA stands for...",
       "back": "Analysis of Variance"
+    },
+    {
+      "front": "What does ANOVA and t-tests have in common?",
+      "back": "they both compare group means."
+    },
+    {
+      "front": "You are studying the effect of an ACT preparation course on ACT scores for indigenous children. You can gather the scores of the children who took part in the preparation course and the scores of similar indigenous children. Which type of t-test would be appropriate to compare the average ACT scores of these two groups and determine if any difference is statistically significant?",
+      "back": "independent samples t-test"
+    },
+    {
+      "front": "You are studying the differences in income for LGBTQ+ individuals in your city at age 30 compared to straight, cisgender individuals across the country. You had to conduct a survey to collect income information for LGBTQ+ individuals in your community, but were able to use existing data for the group of straight, cisgender individuals. Which type of t-test would be appropriate to compare the average incomes of these two groups and determine if any difference is statistically significant?",
+      "back": "One-sample t-test"
+    },
+    {
+      "front": "You are trying to test the effect of peer mentoring on a child's success in managing anger at school. You ask children in your study group to rate their level of anger at lunch before they have started peer mentoring, and then again after they have had a peer mentor eat lunch with them daily for a few weeks. Which type of t-test would be appropriate to compare their scores and determine if any difference is statistically significant?",
+      "back": "Paired samples t-test"
     }
+
+
 
 
 
