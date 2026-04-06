@@ -16,6 +16,15 @@
     {
        "front": "p value",
        "back": "A p-value measures the probability that observed study results occurred by random chance, assuming the null hypothesis (no real effect) is true. It ranges from 0 to 1, with a smaller p-value providing stronger evidence against the null hypothesis."
+    },
+    {
+      "front": "Does a low p-value indicate a hypothesis is true?",
+      "back": "On its own, no."
+    },
+    {
+       "front": "Does a p value measure the size of an effect or importance of a result?",
+       "back": "No -- statistical significance does not always equal real-world significance."
     }
+
   ]
 }
