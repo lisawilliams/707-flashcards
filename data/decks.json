@@ -1,0 +1,12 @@
+{
+  "decks": [
+    {
+      "title": "Presidents of India",
+      "file": "presidents.json"
+    },
+    {
+      "title": "Important Constitutional Amendments",
+      "file": "amendments.json"
+    }
+  ]
+}

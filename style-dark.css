@@ -1,0 +1,154 @@
+/* --- Base / page --- */
+:root{
+  --bg:#0f1216;
+  --card:#1b1f24;
+  --card-shadow: 0 8px 28px rgba(0,0,0,.35);
+  --text:#e8eaed;
+  --muted:#9aa0a6;
+  --brand:#0b66c3;
+  --answer:#0a4b78;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--text);
+  margin:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.container{
+  width: min(900px, 92vw);
+  padding: 32px 20px 96px;
+  text-align:center;
+}
+
+/* --- Headline --- */
+h1{
+  font-size: clamp(20px, 3.2vw, 34px);
+  margin: 0 0 28px;
+  font-weight: 700;
+  color:#63a3ff;
+}
+
+/* --- Card --- */
+.card-container{ perspective: 1200px; }
+.flashcard{
+  width: 100%;
+  height: clamp(320px, 50vh, 440px);
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .6s cubic-bezier(.2,.8,.2,1);
+  cursor: pointer;
+  margin-inline:auto;
+}
+.flashcard.is-flipped{ transform: rotateY(180deg); }
+
+.card-face{
+  position:absolute; inset:0;
+  background: var(--card);
+  border-radius: 22px;
+  box-shadow: var(--card-shadow);
+  display:flex; align-items:center; justify-content:center;
+  padding: 28px;
+  backface-visibility:hidden;
+  overflow:auto;
+}
+.card-front{
+  color: var(--text);
+  font-size: clamp(18px, 2.6vw, 32px);
+  line-height: 1.25;
+}
+.card-back{
+  transform: rotateY(180deg);
+  background: var(--answer);
+  color: #e9f3ff;
+  font-size: clamp(18px, 2.6vw, 32px);
+  line-height:1.25;
+  position:relative;
+}
+
+/* Answer pill (top-right) */
+.answer-badge{
+  position:absolute; top:14px; right:14px;
+  background: rgba(255,255,255,.2);
+  color:#e9f3ff;
+  font-size: 12px; padding:6px 10px;
+  border-radius: 999px;
+  letter-spacing:.2px;
+}
+
+/* --- Bottom mini-UI --- */
+.navigation{ display:none }
+
+/* Counter centered at bottom */
+#card-counter{
+  position: fixed; bottom: 26px; left: 50%; transform: translateX(-50%);
+  margin:0;
+  font-size: 14px; color: var(--muted);
+}
+
+/* Back link (subtle) */
+.back-link{
+  position: fixed; bottom: 26px; left: 22px;
+  color: var(--muted); text-decoration:none; font-size:14px;
+}
+.back-link:hover{ color: #cbd1d6; }
+
+/* Next FAB (single circular arrow) */
+.next-fab{
+  position: fixed; bottom: 18px; right: 18px;
+  width: 56px; height: 56px; border-radius: 50%;
+  border: none; cursor: pointer;
+  background: var(--brand); color: #fff; 
+  box-shadow: 0 8px 24px rgba(11,102,195,.45);
+  display:flex; align-items:center; justify-content:center;
+  font-size: 22px; line-height: 1;
+}
+.next-fab:disabled{ opacity:.5; cursor: default; box-shadow:none; }
+
+/* Scrollbars inside card (subtle) */
+.card-face::-webkit-scrollbar{ width:8px }
+.card-face::-webkit-scrollbar-thumb{ background:#2a2f36; border-radius:8px }
+
+/* Deck List Styling (index page) */
+#deck-list a {
+    display: block;
+    background-color: #21262d;
+    color: #e2e8f0;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#deck-list a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+button {
+    background-color: var(--brand);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #444;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--brand);
+    text-decoration: none;
+}
