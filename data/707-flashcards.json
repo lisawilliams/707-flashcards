@@ -7,7 +7,7 @@
     },
     {
       "front": "statistical significance",
-      "back": "Statistical significance determines if research results are likely real or just due to chance. It is measured using p-values, typically with a threshold (alpha) of \(0.05\). If the \(p\)-value is below \(0.05\), the result is likely not random, allowing researchers to reject the null hypothesis."
+      "back": "Statistical significance determines if research results are likely real or just due to chance. It is measured using p-values, typically with a threshold (alpha) of 0.05. If the p-value is below 0.05, the result is likely not random, allowing researchers to reject the null hypothesis."
     },
     {
       "front": "null hypothesis",
