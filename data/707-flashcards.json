@@ -24,7 +24,29 @@
     {
        "front": "Does a p value measure the size of an effect or importance of a result?",
        "back": "No -- statistical significance does not always equal real-world significance."
-    }
+    },
+    {
+      "front": "How do researchers sometimes denote (write a symbol for) a chi square test?",
+      "back": "x<sup>2</sup>"
+    },
+    {
+      "front": "chi square test for independence",
+      "back": "statistical test to determine whether there is a significant relationship between two nominal or ordinal values."
+    },
+    {
+      "front": "categorical variables",
+      "back": "variables whose values are organized into mutually exclusive groups but whose numerical values cannot be used in mathematical operations."
+    },
+    {
+      "front": "contingency table",
+      "back": "a visual representation of across-tabulation of categorical variables to demonstrate all the possible occurrences of categories"
+    },
+    {
+      "front": "A chi square test is ONLY for nominal or ordinal values.",
+      "back": "True"
+    },
+
+
 
   ]
 }
