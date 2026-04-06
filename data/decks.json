@@ -1,12 +1,9 @@
 {
   "decks": [
     {
-      "title": "Presidents of India",
-      "file": "presidents.json"
+      "title": "707 Flashcards",
+      "file": "707-flaschards.json"
     },
-    {
-      "title": "Important Constitutional Amendments",
-      "file": "amendments.json"
-    }
+    
   ]
 }

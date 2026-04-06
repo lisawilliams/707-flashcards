@@ -1,0 +1,21 @@
+{
+  "title": "707 Flashcards",
+  "flashcards": [
+    {
+      "front": "bivariate analysis",
+      "back": "a group of statistical techniques that examines the relationship between two variables"
+    },
+    {
+      "front": "statistical significance",
+      "back": "Statistical significance determines if research results are likely real or just due to chance. It is measured using p-values, typically with a threshold (alpha) of \(0.05\). If the \(p\)-value is below \(0.05\), the result is likely not random, allowing researchers to reject the null hypothesis."
+    },
+    {
+      "front": "null hypothesis",
+      "back": "the hypothesis that there is no significant difference between specified populations, any observed difference being due to sampling or experimental error."
+    },
+    {
+       "front": "p value",
+       "back": "A p-value measures the probability that observed study results occurred by random chance, assuming the null hypothesis (no real effect) is true. It ranges from 0 to 1, with a smaller p-value providing stronger evidence against the null hypothesis, typically rejecting it if. While common for determining statistical significance, p-values do not measure the size or practical importance of an effect."
+    }
+  ]
+}
