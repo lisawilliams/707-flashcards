@@ -45,6 +45,40 @@
       "front": "A chi square test is ONLY for nominal or ordinal values.",
       "back": "True"
     },
+    {
+      "front": "correlation",
+      "back": "a relationship between two variables in which their values change together."
+    },
+     {
+      "front": "Correlations are only appropriate for two interval or ratio variables.",
+      "back": "True"
+    },
+     {
+      "front": "Correlation coefficient",
+      "back": "1 (Perfect Positive): As one variable increases, the other increases proportionally. -1 (Perfect Negative): As one variable increases, the other decreases proportionally. Zero means no correlation, and small values, like -0.1, mean weak correlation."
+    },
+     {
+      "front": "normal distribution",
+      "back": "a theoretical distribution in which values pile up in the center at the mean and fall off into tails at either end. (bell curve)"
+    },
+     {
+      "front": "You survey a group of youth about their levels of depression, and then compare it to an existing data set. What kind of t-test is this?",
+      "back": "One-sample t-test, because you are comparing your survey against pre-existing data."
+    },
+    {
+      "front": "You survey a group of people who don't have pets about their anxiety, and then again after they get pets. What kind of t-test do you have?",
+      "back": "This is a paired samples t-test -- same population, two samples."
+    },
+    {
+      "front": "You survey two groups of people -- some who have pets and some who don't, about their anxiety. What kind of t-test might be used?",
+      "back": "Independent samples t-test. Two separate groups of people. "
+    },
+    {
+      "front": "ANOVA stands for...",
+      "back": "Analysis of Variance"
+    }
+
+
 
 
 
