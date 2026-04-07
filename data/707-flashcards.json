@@ -92,7 +92,32 @@
     {
       "front": "You are trying to test the effect of peer mentoring on a child's success in managing anger at school. You ask children in your study group to rate their level of anger at lunch before they have started peer mentoring, and then again after they have had a peer mentor eat lunch with them daily for a few weeks. Which type of t-test would be appropriate to compare their scores and determine if any difference is statistically significant?",
       "back": "Paired samples t-test"
-    }
+    },
+    {
+      "front": "If comparing two groups yields a p value of 0.9, would you say that the groups were different in a statistically significant way?",
+      "back": "No. 0.9 is close to 1 -- and a value of 1 would make them identical. Typically we are looking for p values of .05 or less to say that two groups have a statistically significant difference."
+    },
+     {
+      "front": "A .05 threshold for a p value means that 5% of tests will yield p-values smaller than .05.",
+      "back": "True -- and these results may be false positives."
+    },
+     {
+      "front": "A paired sample t-test can measurements of the same set of people at two different times.",
+      "back": "Yes"
+    },
+     {
+      "front": "If you take two groups of people, and give one drug A and the other drug b and then compare them, what kind of t-test is it?",
+      "back": "Independent samples, because they are separate groups with separate drugs"
+    },
+     {
+      "front": "",
+      "back": ""
+    },
+     {
+      "front": "",
+      "back": ""
+    },
+
 
 
 
