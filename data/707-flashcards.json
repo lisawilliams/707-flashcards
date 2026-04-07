@@ -114,10 +114,28 @@
       "back": "It's a one-sample t-test"
     },
      {
-      "front": "",
-      "back": ""
-    }
+      "front": "A one sample t-test compares a group's mean against a reference value; a paired sample t-test takes a group of people and tests those same people twice, before and after an intervention; and an independent sample t-test tests two independent groups of people.",
+      "back": "True"
+    },
 
+    {
+      "front": "statistical significance",
+      "back": "Assuming that the null hypothesis is true and the study is repeated an infinite number times by drawing random samples from the same populations(s), less than 5% of these results will be more extreme than the current result"
+    },
+
+    {
+      "front": "magnitude",
+      "back": "The strength of a correlation, determined by the absolute value of a correlation coefficient. Correlation coefficients are measured between -1 and +1. -1 means it goes down when the other variable goes down, +1 means it goes up. 0 means there is no correlation."
+    },
+
+    {
+      "front": "dependent variable",
+      "back": "A variable that is dependent on or caused by another variable, which is not manipulated directly but is measured to determine whether the independent variable has had an effect(Grinnell, 2016)"
+    },
+{
+      "front": "independent variable",
+      "back": "a variable that is not dependent on another variable but is believe to cause or determine changes in the independent variable; an antecedent variable that is directly manipulated in order to assess its effect on the dependent variable."
+    },
 
 
 

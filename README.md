@@ -1,3 +1,8 @@
+# 707 Flashcards 
+
+Building a web-based flashcard deck for 707. 
+
+
 # Gemini Flashcards App
 
 This repository contains a simple flashcard web app built with HTML, CSS, and JavaScript. It is designed for GitHub Pages deployment.
