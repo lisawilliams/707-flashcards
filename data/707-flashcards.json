@@ -110,13 +110,13 @@
       "back": "Independent samples, because they are separate groups with separate drugs"
     },
      {
-      "front": "",
-      "back": ""
+      "front": "If I have a group of people and I measure their high school graduation rates, and then compare those rates against previously published data, what kind of t-test do I have?",
+      "back": "It's a one-sample t-test"
     },
      {
       "front": "",
       "back": ""
-    },
+    }
 
 
 
