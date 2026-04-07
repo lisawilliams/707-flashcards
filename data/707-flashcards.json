@@ -135,12 +135,40 @@
 {
       "front": "independent variable",
       "back": "a variable that is not dependent on another variable but is believe to cause or determine changes in the independent variable; an antecedent variable that is directly manipulated in order to assess its effect on the dependent variable."
+    },
+
+    {
+      "front": "The number of individuals in a study population is represented by...",
+      "back": "N. (it's capital N and that turns out to be important)."
+    },
+  {
+      "front": "Correlation is represented by a single lowercase number. What is it?",
+      "back": "r"
+    },
+    {
+      "front": "hypothesis",
+      "back": "A theory-based prediction of the expected results of a research study."
+    },
+    {
+      "front": "Ordinal variable",
+      "back": "variables that can be rank-ordered, like level of education, or tax bracket."
+    },
+    {
+      "front": "Nominal variable",
+      "back": "Names or categories that are mutually exclusive. Example: hometowns of study participants."
+    },
+    {
+      "front": "variable",
+      "back": "A concept with characteristics that can take on different values. Note: variables must be able to vary. The speed of light isn't a variable -- it's a constant."
+    },
+    {
+      "front": "mode",
+      "back": "The most frequent value in a data set. For example, the most common given name among the first names of participants in a study."
+    },
+    {
+      "front": "median",
+      "back": "The median is the middle value in an ordered dataset, separating the higher half from the lower half."
     }
-
-
-
-
-
 
 
   ]
