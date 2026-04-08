@@ -1,7 +1,9 @@
 # 707 Flashcards 
 
 Building a web-based flashcard deck for 707. 
+You can find the flashcards here: https://lisawilliams.github.io/707-flashcards/quiz.html?deck=707-flashcards.json
 
+_Below are instructions from the original repo, as I did not build the flashcard app myself, just deployed it and wrote text for the flashcard deck._
 
 # Gemini Flashcards App
 
