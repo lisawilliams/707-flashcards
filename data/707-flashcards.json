@@ -196,6 +196,22 @@
         {
       "front": "continuous variable",
       "back": "A continuous variable is a variable that can take on any value within a range. A continuous variable takes on an infinite number of possible values within a given range. [More explanation](https://articles.outlier.org/discrete-vs-continuous-variables)"
+    },
+     {
+      "front": "validity",
+      "back": "The extent to which the scores from a measure represent the variable they are intended to."
+    },
+     {
+      "front": "face validity",
+      "back": "The extent to which a measurement method appears “on its face” to measure the construct of interest"
+    },
+     {
+      "front": "content validity",
+      "back": "The extent to which a measure “covers” the construct of interest, i.e., it's comprehensiveness to measure the construct."
+    },
+     {
+      "front": "criterion validity",
+      "back": "The extent to which people’s scores on a measure are correlated with other variables (known as criteria) that one would expect them to be correlated with."
     }
 
   ]
