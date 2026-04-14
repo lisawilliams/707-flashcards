@@ -61,6 +61,8 @@ function displayCard() {
     front.innerHTML = currentDeck[currentIndex].front;
     back.innerHTML = currentDeck[currentIndex].back;
     counter.textContent = `${currentIndex + 1} / ${currentDeck.length}`;
+    // if we wanted to randomize the deck we would need to: 
+    // math.random something across the range of cards
     
     updateNavButtons();
 }

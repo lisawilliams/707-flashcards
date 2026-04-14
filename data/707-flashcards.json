@@ -141,7 +141,7 @@
       "front": "The number of individuals in a study population is represented by...",
       "back": "N. (it's capital N and that turns out to be important)."
     },
-  {
+   {
       "front": "Correlation is represented by a single lowercase number. What is it?",
       "back": "r"
     },
@@ -168,8 +168,35 @@
     {
       "front": "median",
       "back": "The median is the middle value in an ordered dataset, separating the higher half from the lower half."
+    },
+    {
+      "front": "A high standard deviation indicates that data is more spread out.",
+      "back": "true"
+    },
+    {
+      "front": "A low standard deviation means that data is clustered more tightly around the mean.",
+      "back": "true"
+    },
+    {
+      "front": "Standard deviation is represented by the greek letter sigma",
+      "back": "true"
+    },
+    {
+      "front": "68% of the data falls within one standard deviation of the mean.",
+      "back": "true"
+    },
+    {
+      "front": "When a researcher 'codes' an interview, what does that mean?",
+      "back": "Qualitative coding involves labeling segments of the data in order to facilitate the process of interpretation. Data can include interviews, surveys, focus groups, and other sources."
+    },
+        {
+      "front": "correlation",
+      "back": "A correlation is a relationship between two variables in which their values change together."
+    },
+        {
+      "front": "continuous variable",
+      "back": "A continuous variable is a variable that can take on any value within a range. A continuous variable takes on an infinite number of possible values within a given range. [More explanation](https://articles.outlier.org/discrete-vs-continuous-variables)"
     }
-
 
   ]
 }
