@@ -237,10 +237,33 @@
        {
       "front": "r is a correlation coefficient - what other name does this have?",
       "back": "Pearson's correlation coefficient"
+    },
+
+     {
+      "front": "What's a way to remember a statistically significant p value?",
+      "back": "We want it to be 'Less than five cents! or <.05"
+    },
+
+     {
+      "front": "You're comparing two groups -- one with a result of 20% integration of curriculum lessons and one with a response of 75% integration of curriculum lessons. Would you use a t test or a chi square to determine statistical significance, and why?",
+      "back": "A chi square -- because the variables are reported in percentages and are nominal level data (the 'nominal' buckets of 'integration of curriculum lessons') "
+    },
+     {
+      "front": "Chi square should or should not be used on continuous values/variables",
+      "back": "Should not. Chi square tests are used on nominal variables -- often expressed by percentages of subjects that fall into a bucket that can be labeled with words."
+    },
+     {
+      "front": "Can you use ANOVA to compare two groups?",
+      "back": "You can but you shouldn't, because it can artificially inflate your p value."
+    },
+     {
+      "front": "What letter do researchers express ANOVA results in?",
+      "back": "Capital F"
+    },
+     {
+      "front": "Can you use ANOVA on nominal variables?",
+      "back": "No, ANOVA is used to compare means (and means must be based on continuous variables otherwise we couldn't calculate a mean"
     }
-
-
-
 
   ]
 }
