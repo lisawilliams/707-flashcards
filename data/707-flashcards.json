@@ -212,7 +212,35 @@
      {
       "front": "criterion validity",
       "back": "The extent to which people’s scores on a measure are correlated with other variables (known as criteria) that one would expect them to be correlated with."
+    },
+
+    {
+      "front": "*Many studies suggest that there is a relationship between viewing violence on television and violent behavioral patterns. With what statistical test would you test this hypothesis? How would you operationalize the variables needed to test this hypothesis vis-a-vis variable structure, nominal or continuous? What would the results of this test look like if this hypothesis was supported?",
+      "back": "Pearson's correlation, with a continuous variable, such as hours of watching violent television, and a second continuous variable like number of aggressive action."
+    },
+    {
+      "front": "*Correlation is a test of causation.",
+      "back": "false"
+    },
+    {
+      "front": "*The number of individuals in a population is represented by",
+      "back": "N (the capital letter is important)"
+    },
+    {
+      "front": "*The single letter accompanying the correlation score in a correlation statistic result is the letter...",
+      "back": "r (the lowercase is important)"
+    },
+    {
+      "front": "*Means, medians and modes are measures of central tendency. ",
+      "back": "True"
+    },
+       {
+      "front": "r is a correlation coefficient - what other name does this have?",
+      "back": "Pearson's correlation coefficient"
     }
+
+
+
 
   ]
 }
